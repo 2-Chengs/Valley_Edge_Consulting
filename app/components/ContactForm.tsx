@@ -16,19 +16,17 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // Here you would typically send the form data to your server or a third-party service
     console.log("Form submitted:", formData)
-    // Reset form after submission
     setFormData({ name: "", email: "", message: "" })
   }
 
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-[#426A56]">Contact Us</h2>
         <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
           <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
+            <label htmlFor="name" className="block text-[#426A56] font-semibold mb-2">
               Name
             </label>
             <input
@@ -38,11 +36,11 @@ export default function ContactForm() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#426A56]"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">
+            <label htmlFor="email" className="block text-[#426A56] font-semibold mb-2">
               Email
             </label>
             <input
@@ -52,11 +50,11 @@ export default function ContactForm() {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#426A56]"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">
+            <label htmlFor="message" className="block text-[#426A56] font-semibold mb-2">
               Message
             </label>
             <textarea
@@ -66,12 +64,12 @@ export default function ContactForm() {
               onChange={handleChange}
               required
               rows={4}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#426A56]"
             ></textarea>
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300"
+            className="w-full bg-[#426A56] text-white font-semibold py-2 px-4 rounded-md hover:bg-[#4A6C5E] transition duration-300"
           >
             Send Message
           </button>

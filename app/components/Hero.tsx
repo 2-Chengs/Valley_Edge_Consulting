@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
+    <section className="bg-gradient-to-r from-[#426A56] to-[#4A6C5E] text-white py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Elevating Businesses with Cutting-Edge Solutions</h1>
@@ -12,7 +12,7 @@ export default function Hero() {
           </p>
           <a
             href="#contact"
-            className="inline-flex items-center bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-blue-50 transition duration-300"
+            className="inline-flex items-center bg-white text-[#426A56] font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition duration-300"
           >
             Get Started
             <ArrowRight className="ml-2 h-5 w-5" />
