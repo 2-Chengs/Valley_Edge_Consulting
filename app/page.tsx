@@ -1,9 +1,10 @@
-import type { Metadata } from "next"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Services from "./components/Services"
 import ContactForm from "./components/ContactForm"
 import Footer from "./components/Footer"
+import IntroSection from "./components/IntroSection"
+import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Valley Edge Consulting - Web Development, Business Solutions, and Technical Implementation",
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-black">
+      <IntroSection />
       <Header />
       <main className="flex-grow">
         <Hero />
