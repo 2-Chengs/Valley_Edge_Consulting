@@ -1,5 +1,6 @@
 import "./globals.css"
 import { Inter, Exo_2 } from "next/font/google"
+import type { Metadata } from "next"
 import type React from "react"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -7,6 +8,12 @@ const exo2 = Exo_2({
   subsets: ["latin"],
   weight: ["200", "400", "600", "700"],
 })
+
+export const metadata: Metadata = {
+  title: "Valley Edge Consulting",
+  description: "Bring Your Business to the Edge",
+    generator: 'v0.dev'
+}
 
 export default function RootLayout({
   children,
@@ -20,3 +27,6 @@ export default function RootLayout({
   )
 }
 
+
+
+import './globals.css'
