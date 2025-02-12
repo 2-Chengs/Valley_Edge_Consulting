@@ -13,12 +13,12 @@ const exo2 = Exo_2({
 
 export const metadata: Metadata = {
   title: {
-    default: "Valley Edge Consulting | Software Development & Cloud Solutions",
+    default: "Valley Edge Consulting | Web Development & Business Automation",
     template: "%s | Valley Edge Consulting"
   },
   description: "Expert software development and cloud solutions for businesses. Specializing in web applications, cloud architecture, and digital transformation.",
   keywords: ["software development", "cloud solutions", "web development", "digital transformation", "Valley Edge Consulting"],
-  metadataBase: new URL('https://valleyedgeconsulting.com'), // Replace with your domain
+  metadataBase: new URL('https://www.valleyedgeconsulting.io'),
   openGraph: {
     title: 'Valley Edge Consulting',
     description: 'Expert software development and cloud solutions for businesses',
@@ -26,9 +26,10 @@ export const metadata: Metadata = {
     siteName: 'Valley Edge Consulting',
     images: [
       {
-        url: '/og-image.jpg', // Add your OG image
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
+        alt: 'Valley Edge Consulting - Software Development & Cloud Solutions'
       }
     ],
     locale: 'en_US',
@@ -37,6 +38,15 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Valley Edge Consulting',
+    description: 'Expert software development and cloud solutions for businesses',
+    images: ['/og-image.jpg'],
+  },
+  alternates: {
+    canonical: 'https://www.valleyedgeconsulting.io'
   }
 }
 
