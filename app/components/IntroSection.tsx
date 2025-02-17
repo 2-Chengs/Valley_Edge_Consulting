@@ -44,7 +44,7 @@ export default function IntroSection() {
         transition={{
           delay: 2,
           duration: 2,
-          repeat: Number.POSITIVE_INFINITY,
+          repeat: Infinity,
           repeatType: "loop",
         }}
         className="absolute bottom-12 text-white"

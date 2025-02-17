@@ -3,6 +3,7 @@ import { Inter, Exo_2 } from "next/font/google"
 import type { Metadata } from "next"
 import type React from "react"
 import JsonLd from "./components/JsonLd"
+import { ThemeProvider } from "@/components/theme-provider"
 
 
 const inter = Inter({ subsets: ["latin"] })
@@ -56,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         {/* Web Vitals Monitoring */}
         <script
@@ -81,8 +82,15 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.className} bg-black`}>
-        <JsonLd />
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <JsonLd />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )
