@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Send, AlertCircle } from "lucide-react"
+import { Send, AlertCircle, Loader2 } from "lucide-react"
 
 type FormData = {
   name: string
@@ -15,6 +15,8 @@ type FormErrors = {
   [key in keyof FormData]?: string
 }
 
+const GOOGLE_APPS_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_APPS_SCRIPT_URL
+
 export default function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
     name: "",
@@ -24,7 +26,7 @@ export default function ContactForm() {
   })
   const [errors, setErrors] = useState<FormErrors>({})
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle")
+  const [formState, setFormState] = useState<"form" | "loading" | "success">("form")
 
   const validateForm = (): boolean => {
     const newErrors: FormErrors = {}
@@ -91,41 +93,69 @@ export default function ContactForm() {
     }
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     
     if (!validateForm()) {
       return
     }
 
+    // Immediately show loading state
+    setFormState("loading")
     setIsSubmitting(true)
-    setSubmitStatus("idle")
 
     try {
-      const response = await fetch("/api/contact", {
+      if (!GOOGLE_APPS_SCRIPT_URL) {
+        throw new Error("Google Apps Script URL not configured")
+      }
+
+      await fetch(GOOGLE_APPS_SCRIPT_URL, {
         method: "POST",
+        mode: "no-cors",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       })
 
-      if (!response.ok) throw new Error("Failed to submit")
-      
-      setSubmitStatus("success")
-      setFormData({ name: "", email: "", phone: "", message: "" })
+      // With no-cors mode, we won't get a response we can read
+      // So we'll assume success if no error is thrown
+      await new Promise(resolve => setTimeout(resolve, 500))
+      setFormState("success")
     } catch (error) {
-      setSubmitStatus("error")
+      console.error("Form submission error:", error)
+      setFormState("form")
     } finally {
       setIsSubmitting(false)
     }
   }
 
-  return (
-    <section id="contact" className="py-20 bg-gray-900">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white">Contact Us</h2>
-        <div className="max-w-2xl mx-auto">
+  const renderContent = () => {
+    switch (formState) {
+      case "loading":
+        return (
+          <div className="flex flex-col items-center justify-center min-h-[400px]">
+            <Loader2 className="w-12 h-12 animate-spin text-primary mb-4" />
+            <p className="text-white text-lg">Sending your message...</p>
+          </div>
+        )
+
+      case "success":
+        return (
+          <div className="text-center min-h-[400px] flex flex-col items-center justify-center">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2 className="text-3xl font-bold mb-6 text-white">Thank You!</h2>
+              <p className="text-gray-300">We'll get back to you soon.</p>
+            </motion.div>
+          </div>
+        )
+
+      default:
+        return (
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
@@ -223,7 +253,10 @@ export default function ContactForm() {
                   transition-colors duration-200`}
               >
                 {isSubmitting ? (
-                  "Sending..."
+                  <>
+                    <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                    Sending...
+                  </>
                 ) : (
                   <>
                     Send Message
@@ -232,13 +265,19 @@ export default function ContactForm() {
                 )}
               </motion.button>
             </div>
-            {submitStatus === "success" && (
-              <p className="text-green-500 text-center mt-4">Message sent successfully!</p>
-            )}
-            {submitStatus === "error" && (
-              <p className="text-red-500 text-center mt-4">Failed to send message. Please try again.</p>
-            )}
           </form>
+        )
+    }
+  }
+
+  return (
+    <section id="contact" className="py-20 bg-gray-900">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-12 text-white">
+          {formState === "form" ? "Contact Us" : ""}
+        </h2>
+        <div className="max-w-2xl mx-auto">
+          {renderContent()}
         </div>
       </div>
     </section>
