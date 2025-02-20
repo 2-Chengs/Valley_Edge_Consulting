@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Valley Edge Consulting. All rreserved.</p>
+          <p>&copy; {new Date().getFullYear()} Valley Edge Consulting. All rights reserved.</p>
         </div>
       </div>
     </footer>
