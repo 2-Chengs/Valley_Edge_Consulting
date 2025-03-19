@@ -2,7 +2,7 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import IntroSection from "./components/IntroSection"
 import type { Metadata } from "next"
-import { ArrowRight, CheckCircle, Globe, BarChart, Code, Zap, ArrowUpRight, ChevronRight, Quote } from "lucide-react"
+import { ArrowRight, CheckCircle, Globe, BarChart, Code, Zap, ArrowUpRight, ChevronRight, Quote, Server, Terminal, BarChart2 } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -17,23 +17,23 @@ const clientLogos = [1, 2, 3, 4, 5, 6]
 const features = [
   {
     icon: <Globe className="h-6 w-6 text-emerald-400" />,
-    title: "Web Development",
-    description: "Custom websites and applications tailored to your unique business needs."
+    title: "Website & E-Commerce",
+    description: "Custom websites, online stores, and booking systems designed for conversions and growth."
   },
   {
-    icon: <BarChart className="h-6 w-6 text-blue-400" />,
-    title: "Business Solutions",
-    description: "Strategic consulting and implementation to optimize your operations."
+    icon: <Server className="h-6 w-6 text-blue-400" />,
+    title: "IT & Tech Support",
+    description: "Network setup, business email, cloud solutions, and IT security for your entire business."
   },
   {
-    icon: <Code className="h-6 w-6 text-violet-400" />,
-    title: "Technical Implementation",
-    description: "Seamless integration of cutting-edge technologies for your business."
+    icon: <Terminal className="h-6 w-6 text-violet-400" />,
+    title: "Business Automation",
+    description: "Streamline operations with POS integrations, CRM systems, and custom software solutions."
   },
   {
-    icon: <Zap className="h-6 w-6 text-amber-400" />,
-    title: "Digital Innovation",
-    description: "Forward-thinking solutions that keep you ahead of the competition."
+    icon: <BarChart2 className="h-6 w-6 text-amber-400" />,
+    title: "Consulting & Strategy",
+    description: "Expert guidance on tech strategy, process optimization, and cybersecurity compliance."
   }
 ]
 
@@ -83,7 +83,7 @@ export default function Home() {
               </span>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Comprehensive Technology Solutions</h2>
               <p className="text-xl text-gray-300">
-                We provide end-to-end services to transform your business with innovative technology
+                Everything your business needs in one place - from websites to IT support and business automation
               </p>
             </div>
             
@@ -114,15 +114,30 @@ export default function Home() {
         {/* Clients Section */}
         <section className="py-20 bg-gray-950">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-2xl font-bold text-white">Trusted by innovative businesses</h2>
-            </div>
-            <div className="flex flex-wrap justify-center gap-8 opacity-60">
-              {clientLogos.map((logo) => (
-                <div key={logo} className="w-32 h-12 bg-gray-800 rounded-md flex items-center justify-center">
-                  <p className="text-gray-500 text-xs">LOGO {logo}</p>
+            <div className="max-w-4xl mx-auto text-center">
+              <span className="inline-block px-4 py-1 bg-emerald-900/50 text-emerald-400 rounded-full text-sm font-semibold mb-4">
+                OUR PHILOSOPHY
+              </span>
+              <h2 className="text-3xl font-bold text-white mb-6">Technology That Works For You</h2>
+              <p className="text-xl text-gray-300 mb-8">
+                We believe technology should simplify your business operations, not complicate them. 
+                Our solutions are designed with your specific needs in mind, focusing on practical 
+                results that drive growth and efficiency.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="p-6 bg-gray-800/70 rounded-xl border border-gray-700">
+                  <h3 className="text-xl font-semibold text-white mb-3">People First</h3>
+                  <p className="text-gray-300 text-sm">We prioritize your team's experience with every solution we implement.</p>
                 </div>
-              ))}
+                <div className="p-6 bg-gray-800/70 rounded-xl border border-gray-700">
+                  <h3 className="text-xl font-semibold text-white mb-3">Future Ready</h3>
+                  <p className="text-gray-300 text-sm">Our solutions are built to evolve with your business needs and technology trends.</p>
+                </div>
+                <div className="p-6 bg-gray-800/70 rounded-xl border border-gray-700">
+                  <h3 className="text-xl font-semibold text-white mb-3">Measurable Impact</h3>
+                  <p className="text-gray-300 text-sm">We focus on delivering outcomes that you can see and measure in your business.</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -189,16 +204,31 @@ export default function Home() {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                { title: "Summit Financial", category: "Financial Services" },
-                { title: "Evergreen Wellness", category: "Health & Wellness" },
-                { title: "Arcadia Homes", category: "Real Estate" }
+                { 
+                  title: "Alberni Colour Corner",
+                  category: "Paint & Home Decor Store",
+                  image: "/images/portfolio/albernicolourcorner.png"
+                },
+                { 
+                  title: "Valley Edge Basketball", 
+                  category: "Sports Organization",
+                  image: "/images/portfolio/valleyedgebasketball.jpg"
+                },
+                { 
+                  title: "Crab Rave Token", 
+                  category: "Cryptocurrency Project",
+                  image: "/images/portfolio/crabravetoken.jpg"
+                }
               ].map((project, index) => (
                 <div key={index} className="group relative overflow-hidden rounded-xl">
                   <div className="aspect-[4/3] bg-gray-800 relative overflow-hidden">
+                    <Image 
+                      src={project.image} 
+                      alt={project.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <p className="text-gray-500 text-sm">Project Image</p>
-                    </div>
                     <div className="absolute bottom-0 left-0 right-0 p-6">
                       <span className="text-xs font-semibold px-2 py-1 rounded-full bg-emerald-900/50 text-emerald-400 mb-2 inline-block">
                         {project.category}

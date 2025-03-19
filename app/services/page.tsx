@@ -28,7 +28,7 @@ export default function ServicesPage() {
                 Everything Your Business Needs, <span className="bg-gradient-to-r from-emerald-500 to-teal-500 text-transparent bg-clip-text">In One Place</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-10">
-                At Valley Edge Consulting, we are your one-stop technology partner. Whether you're launching a new business or looking to streamline operations, we provide end-to-end IT & digital solutions designed specifically for small businesses.
+                At Valley Edge Consulting, we are your one-stop technology partner. We offer "business with batteries included" — whether you're launching a new business or looking to streamline operations, we provide end-to-end IT & digital solutions designed specifically for small businesses.
               </p>
               <Link href="#business-in-a-box" 
                 className="px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/20 inline-flex items-center">
@@ -317,7 +317,7 @@ export default function ServicesPage() {
                 {[
                   {
                     title: "One-Stop Tech Partner",
-                    desc: "No need to hire multiple vendors; we handle everything.",
+                    desc: "Business with batteries included — we handle everything so you can focus on growth.",
                     icon: <Zap className="h-8 w-8 text-emerald-400" />
                   },
                   {
@@ -327,7 +327,7 @@ export default function ServicesPage() {
                   },
                   {
                     title: "Expert Support",
-                    desc: "From setup to maintenance, we're here whenever you need us.",
+                    desc: "Stress-free implementation with clear communication in plain language, not tech jargon.",
                     icon: <Phone className="h-8 w-8 text-emerald-400" />
                   },
                   {

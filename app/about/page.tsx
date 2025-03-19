@@ -2,7 +2,7 @@ import Image from "next/image"
 import type { Metadata } from "next"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import { Users, Target, Rocket, Award, Clock, Shield, ChevronRight, Briefcase, BookOpen, MessageSquare, Code } from "lucide-react"
+import { Users, Target, Rocket, Award, Clock, Shield, ChevronRight, Briefcase, BookOpen, MessageSquare, Code, Zap } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -18,8 +18,8 @@ const values = [
   },
   {
     icon: <Rocket className="h-10 w-10 text-blue-400" />,
-    title: "Innovation",
-    description: "I stay at the forefront of technology trends to bring cutting-edge solutions to every project I undertake."
+    title: "Complete Solutions",
+    description: "I deliver business with batteries included — comprehensive, ready-to-use technology that works from day one with all components seamlessly integrated."
   },
   {
     icon: <Award className="h-10 w-10 text-violet-400" />,
@@ -38,8 +38,8 @@ const values = [
   },
   {
     icon: <MessageSquare className="h-10 w-10 text-indigo-400" />,
-    title: "Communication",
-    description: "I maintain clear, open communication throughout every project, ensuring you're always informed and involved."
+    title: "Clear Communication",
+    description: "I ensure you always understand what's happening with your project, using plain language instead of technical jargon."
   }
 ]
 
@@ -119,8 +119,13 @@ export default function AboutPage() {
                     <p>
                       What sets Valley Edge apart is my holistic approach to business technology. From POS systems and employee tracking to CRM implementations and custom web development, I go beyond simply building websites or integrating software—I craft tailored, end-to-end solutions designed to optimize operations and fuel growth.
                     </p>
+                    
                     <p>
                       With a deep understanding of how technology can transform businesses, I work closely with clients to implement solutions that don't just work today but scale for the future. Whether you're looking to streamline processes, enhance customer engagement, or modernize your digital presence, Valley Edge Consulting is here to turn your vision into reality.
+                    </p>
+                    
+                    <p>
+                      As a native of Port Alberni, BC, I proudly serve local Vancouver Island businesses while also working with clients across BC. Being born and raised in this community gives me a unique understanding of the local business landscape and the specific challenges faced by companies in the Alberni Valley. My services extend to all surrounding areas including Nanaimo, Parksville, Tofino, Ucluelet, Courtenay, and beyond. My deep local roots combined with extensive technical expertise allow me to provide both personalized service and cutting-edge solutions throughout central Vancouver Island.
                     </p>
                     
                     {/* Photo moved here - above "Why work with me" section */}
@@ -153,7 +158,7 @@ export default function AboutPage() {
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                           </div>
-                          <span className="text-gray-300">Deep understanding of both business and technical challenges</span>
+                          <span className="text-gray-300">One-stop technology partner — no need to juggle multiple vendors for your business tech needs</span>
                         </li>
                         <li className="flex items-start">
                           <div className="bg-emerald-900/30 p-1.5 rounded-full mr-3 mt-1">
@@ -161,7 +166,7 @@ export default function AboutPage() {
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                           </div>
-                          <span className="text-gray-300">Solutions that scale with your business growth</span>
+                          <span className="text-gray-300">Stress-free implementation with ongoing support — I handle all the technical details so you don't have to</span>
                         </li>
                         <li className="flex items-start">
                           <div className="bg-emerald-900/30 p-1.5 rounded-full mr-3 mt-1">
@@ -169,7 +174,7 @@ export default function AboutPage() {
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                           </div>
-                          <span className="text-gray-300">Personal attention and direct communication throughout your project</span>
+                          <span className="text-gray-300">Clear, jargon-free communication — I ensure you understand your technology without the confusing tech-speak</span>
                         </li>
                       </ul>
                     </div>
@@ -206,7 +211,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">My Mission</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  To empower businesses with technology that drives real results. I strive to be a true partner in my clients' success by delivering solutions that address their unique challenges and create tangible business value, transforming technology from a cost center into a strategic advantage.
+                  To provide "business with batteries included" — comprehensive technology solutions that come ready to power your success from day one. I deliver stress-free implementations where everything is taken care of, from setup to ongoing support, allowing you to focus on what matters most: running your business.
                 </p>
               </div>
               
@@ -219,7 +224,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">My Vision</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  To become the trusted technology partner that businesses turn to when they need solutions that actually work in the real world. I aim to bridge the gap between cutting-edge technology and practical business needs, creating scalable solutions that grow with my clients and help them stay competitive in an ever-evolving digital landscape.
+                  To be the one-stop technology partner that businesses trust for all their digital needs. I aspire to create a world where business owners don't need to juggle multiple vendors or worry about technical details. Instead, they can rely on a single trusted partner who ensures everything works together seamlessly, providing peace of mind and allowing them to focus on growth.
                 </p>
               </div>
             </div>
@@ -356,36 +361,6 @@ export default function AboutPage() {
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </section>
-        
-        {/* Expertise */}
-        <section className="py-24 bg-gray-900">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center mb-16">
-              <span className="inline-block px-4 py-1 bg-emerald-900/50 text-emerald-400 rounded-full text-sm font-semibold mb-4">
-                EXPERTISE
-              </span>
-              <h2 className="text-3xl font-bold mb-6 text-white">Specialized Solutions</h2>
-              <p className="text-lg text-gray-300">
-                My expertise spans across critical business and technology domains
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {expertise.map((area, index) => (
-                <div key={index} className="bg-gray-800 p-8 rounded-xl shadow-xl border border-gray-700">
-                  <div className="inline-flex items-center justify-center w-14 h-14 bg-gray-900 rounded-xl mb-6">
-                    {area.icon}
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-white">{area.title}</h3>
-                  <p className="text-gray-300 mb-6">{area.description}</p>
-                  <Link href="/services" className="text-emerald-400 hover:text-emerald-300 flex items-center text-sm font-medium">
-                    Learn more <ChevronRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </div>
-              ))}
             </div>
           </div>
         </section>
