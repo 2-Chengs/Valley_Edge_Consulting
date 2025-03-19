@@ -137,7 +137,7 @@ export default function ServicesPage() {
             
             <div className="space-y-24 max-w-5xl mx-auto">
               {/* Website & E-Commerce */}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div id="web-services" className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-5 order-2 lg:order-1">
                   <div className="bg-gray-800/80 rounded-2xl overflow-hidden border border-gray-700 shadow-xl p-6 md:p-8">
                     <div className="inline-flex items-center justify-center w-16 h-16 bg-emerald-900/30 rounded-full mb-6">
@@ -178,7 +178,7 @@ export default function ServicesPage() {
               </div>
               
               {/* IT Support */}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div id="it-services" className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-7">
                   <div className="relative rounded-2xl overflow-hidden aspect-video shadow-2xl border border-gray-700">
                     <Image 
@@ -220,7 +220,7 @@ export default function ServicesPage() {
               </div>
               
               {/* Business Automation */}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div id="automation" className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-5 order-2 lg:order-1">
                   <div className="bg-gray-800/80 rounded-2xl overflow-hidden border border-gray-700 shadow-xl p-6 md:p-8">
                     <div className="inline-flex items-center justify-center w-16 h-16 bg-violet-900/30 rounded-full mb-6">
@@ -261,7 +261,7 @@ export default function ServicesPage() {
               </div>
               
               {/* Consulting */}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div id="consulting" className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-7">
                   <div className="relative rounded-2xl overflow-hidden aspect-video shadow-2xl border border-gray-700">
                     <Image 
