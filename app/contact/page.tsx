@@ -119,7 +119,7 @@ export default function ContactPage() {
                   </div>
                   
                   <div className="lg:col-span-3 p-8 md:p-12">
-                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="space-y-6">
+                    <form action="https://formspree.io/f/xkgjozeo" method="POST" className="space-y-6">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                           <label htmlFor="name" className="block text-white font-medium mb-2">Name</label>
