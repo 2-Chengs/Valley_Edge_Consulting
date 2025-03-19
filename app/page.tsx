@@ -7,9 +7,9 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "Valley Edge Consulting - Web Development, Business Solutions, and Technical Implementation",
+  title: "Port Alberni Web Design & Business IT Solutions | Valley Edge Consulting",
   description:
-    "Valley Edge Consulting offers expert web development, innovative business solutions, and seamless technical implementations to drive your business success.",
+    "Top-rated web design, IT support and business technology solutions in Port Alberni, BC. Serving Vancouver Island businesses with custom websites, tech support and digital services.",
 }
 
 const clientLogos = [1, 2, 3, 4, 5, 6]
@@ -301,9 +301,9 @@ export default function Home() {
                 className="px-10 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-bold rounded-full text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/20">
                 Start Your Project
               </Link>
-              <Link href="tel:1-250-730-2398" 
+              <Link href="/blog" 
                 className="px-10 py-4 bg-transparent border-2 border-white/20 hover:border-white/40 text-white font-semibold rounded-full transition-all duration-300 flex items-center justify-center">
-                Call Us: 1-250-730-2398
+                Read Our Blog
               </Link>
             </div>
           </div>

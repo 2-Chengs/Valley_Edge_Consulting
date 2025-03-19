@@ -6,8 +6,8 @@ import { Users, Target, Rocket, Award, Clock, Shield, ChevronRight, Briefcase, B
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "About - Valley Edge Consulting",
-  description: "Learn about Valley Edge Consulting's expertise and approach. With experience at Rogers, WorkSafeBC, ServiceBC, Sysco, and a strong educational foundation from UVic and BCIT, I provide comprehensive business technology solutions.",
+  title: "About - Valley Edge Consulting | Port Alberni Web Design & IT Services",
+  description: "Valley Edge Consulting provides expert web design and IT solutions in Port Alberni, BC. Serving Nanaimo, Parksville, Tofino, Ucluelet and Courtenay with local expertise and comprehensive business technology services.",
 }
 
 const values = [
@@ -136,7 +136,7 @@ export default function AboutPage() {
                           <div className="absolute inset-0 bg-gradient-to-br from-emerald-800/40 to-teal-800/40 z-10"></div>
                           <Image 
                             src="/Ivan_Front_Lines.jpg"
-                            alt="Ivan - Valley Edge Consulting"
+                            alt="Ivan from Valley Edge Consulting - Port Alberni Web Design & IT Services"
                             fill
                             className="object-cover"
                           />

@@ -4,6 +4,7 @@ import type { Metadata } from "next"
 import type React from "react"
 import JsonLd from "./components/JsonLd"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Analytics } from "./components/Analytics"
 
 
 const inter = Inter({ subsets: ["latin"] })
@@ -14,15 +15,15 @@ const exo2 = Exo_2({
 
 export const metadata: Metadata = {
   title: {
-    default: "Valley Edge Consulting | Web Development & Business Automation",
+    default: "Port Alberni Web Design & IT Services | Valley Edge Consulting",
     template: "%s | Valley Edge Consulting"
   },
-  description: "Expert software development and cloud solutions for businesses. Specializing in web applications, cloud architecture, and digital transformation.",
-  keywords: ["software development", "cloud solutions", "web development", "digital transformation", "Valley Edge Consulting"],
+  description: "Professional web design and IT services in Port Alberni, BC. Serving Vancouver Island businesses with custom websites, tech support, and digital solutions.",
+  keywords: ["Port Alberni web design", "Vancouver Island IT services", "website development Port Alberni", "business technology solutions", "IT support Port Alberni", "web design Nanaimo", "Parksville IT services", "Tofino web design", "Ucluelet web development", "Courtenay IT support"],
   metadataBase: new URL('https://www.valleyedgeconsulting.io'),
   openGraph: {
-    title: 'Valley Edge Consulting',
-    description: 'Expert software development and cloud solutions for businesses',
+    title: 'Port Alberni Web Design & IT Services | Valley Edge Consulting',
+    description: 'Professional web design and IT services in Port Alberni, BC. Serving Vancouver Island businesses with custom websites, tech support, and digital solutions.',
     url: 'https://valleyedgeconsulting.io',
     siteName: 'Valley Edge Consulting',
     images: [
@@ -30,10 +31,10 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Valley Edge Consulting - Software Development & Cloud Solutions'
+        alt: 'Valley Edge Consulting - Web Design & IT Services in Port Alberni, BC'
       }
     ],
-    locale: 'en_US',
+    locale: 'en_CA',
     type: 'website',
   },
   robots: {
@@ -42,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Valley Edge Consulting',
-    description: 'Expert software development and cloud solutions for businesses',
+    title: 'Port Alberni Web Design & IT Services | Valley Edge Consulting',
+    description: 'Professional web design and IT services in Port Alberni, BC. Serving Vancouver Island businesses.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -89,6 +90,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <JsonLd />
+          <Analytics />
           {children}
         </ThemeProvider>
       </body>

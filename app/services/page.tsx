@@ -6,8 +6,8 @@ import { CheckCircle, Rocket, Globe, Server, Terminal, BarChart2, Building, Zap,
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Services - Valley Edge Consulting",
-  description: "Comprehensive technology solutions for your business. From websites to IT support, we handle all your tech needs in one place.",
+  title: "Web Design & IT Services in Port Alberni | Valley Edge Consulting",
+  description: "Professional web design, IT support, and business technology solutions in Port Alberni, BC. Serving local Vancouver Island businesses with custom websites, tech support, and digital solutions.",
 }
 
 export default function ServicesPage() {
@@ -168,7 +168,7 @@ export default function ServicesPage() {
                   <div className="relative rounded-2xl overflow-hidden aspect-video shadow-2xl border border-gray-700">
                     <Image 
                       src="/images/services/website.jpg" 
-                      alt="Website Development" 
+                      alt="Website & E-Commerce Development in Port Alberni and Vancouver Island" 
                       fill 
                       className="object-cover"
                     />
@@ -183,7 +183,7 @@ export default function ServicesPage() {
                   <div className="relative rounded-2xl overflow-hidden aspect-video shadow-2xl border border-gray-700">
                     <Image 
                       src="/images/services/it-support.jpg" 
-                      alt="IT Support" 
+                      alt="IT & Business Tech Support in Port Alberni, BC" 
                       fill 
                       className="object-cover"
                     />
@@ -251,7 +251,7 @@ export default function ServicesPage() {
                   <div className="relative rounded-2xl overflow-hidden aspect-video shadow-2xl border border-gray-700">
                     <Image 
                       src="/images/services/automation.jpg" 
-                      alt="Business Automation" 
+                      alt="Business Automation & Custom Software Solutions for Vancouver Island businesses" 
                       fill 
                       className="object-cover"
                     />
@@ -266,7 +266,7 @@ export default function ServicesPage() {
                   <div className="relative rounded-2xl overflow-hidden aspect-video shadow-2xl border border-gray-700">
                     <Image 
                       src="/images/services/consulting.jpg" 
-                      alt="Consulting & Strategy" 
+                      alt="Technology Consulting & Strategy for Port Alberni and surrounding areas" 
                       fill 
                       className="object-cover"
                     />
