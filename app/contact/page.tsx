@@ -119,24 +119,28 @@ export default function ContactPage() {
                   </div>
                   
                   <div className="lg:col-span-3 p-8 md:p-12">
-                    <form className="space-y-6">
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="space-y-6">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                           <label htmlFor="name" className="block text-white font-medium mb-2">Name</label>
                           <input 
                             type="text" 
-                            id="name" 
+                            id="name"
+                            name="name"
                             className="w-full bg-gray-700/50 border border-gray-600 focus:border-emerald-500 rounded-lg px-4 py-3 text-white outline-none transition-colors" 
                             placeholder="Your name"
+                            required
                           />
                         </div>
                         <div>
                           <label htmlFor="email" className="block text-white font-medium mb-2">Email</label>
                           <input 
                             type="email" 
-                            id="email" 
+                            id="email"
+                            name="email"
                             className="w-full bg-gray-700/50 border border-gray-600 focus:border-emerald-500 rounded-lg px-4 py-3 text-white outline-none transition-colors" 
                             placeholder="your@email.com"
+                            required
                           />
                         </div>
                       </div>
@@ -145,20 +149,29 @@ export default function ContactPage() {
                         <label htmlFor="subject" className="block text-white font-medium mb-2">Subject</label>
                         <input 
                           type="text" 
-                          id="subject" 
+                          id="subject"
+                          name="subject"
                           className="w-full bg-gray-700/50 border border-gray-600 focus:border-emerald-500 rounded-lg px-4 py-3 text-white outline-none transition-colors" 
                           placeholder="How can we help you?"
+                          required
                         />
                       </div>
                       
                       <div>
                         <label htmlFor="message" className="block text-white font-medium mb-2">Message</label>
                         <textarea 
-                          id="message" 
+                          id="message"
+                          name="message"
                           rows={5} 
                           className="w-full bg-gray-700/50 border border-gray-600 focus:border-emerald-500 rounded-lg px-4 py-3 text-white outline-none transition-colors" 
                           placeholder="Tell us about your project or inquiry..."
+                          required
                         ></textarea>
+                      </div>
+
+                      {/* Honeypot field to prevent spam */}
+                      <div className="hidden">
+                        <input type="text" name="_gotcha" />
                       </div>
                       
                       <div>
