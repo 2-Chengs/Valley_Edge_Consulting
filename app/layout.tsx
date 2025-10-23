@@ -46,9 +46,6 @@ export const metadata: Metadata = {
     title: 'Vancouver Web Development & IT Services | Valley Edge Consulting',
     description: 'Professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses.',
     images: ['/og-image.jpg'],
-  },
-  alternates: {
-    canonical: 'https://www.valleyedgeconsulting.io'
   }
 }
 
