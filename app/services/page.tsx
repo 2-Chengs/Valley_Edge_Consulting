@@ -6,8 +6,8 @@ import { CheckCircle, Rocket, Globe, Server, Terminal, BarChart2, Building, Zap,
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Web Development & IT Services in Vancouver | Valley Edge Consulting",
-  description: "Professional web development, IT support, and business technology solutions in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses with custom websites, tech support, and digital solutions.",
+  title: "Web Development & IT Services | Vancouver & Vancouver Island | Valley Edge Consulting",
+  description: "Professional web development, IT support, and business technology solutions serving Vancouver and Vancouver Island, BC. Expert services for Victoria, Nanaimo, Courtenay, Port Alberni, and coastal BC businesses.",
 }
 
 export default function ServicesPage() {

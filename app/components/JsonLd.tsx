@@ -7,7 +7,7 @@ export default function JsonLd() {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "Valley Edge Consulting",
-          "description": "Professional web development, IT support, and business technology solutions in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses with custom websites, tech support and digital services.",
+          "description": "Professional web development, IT support, and business technology solutions serving Vancouver and Vancouver Island, BC. Expert services for businesses in Victoria, Nanaimo, Courtenay, Port Alberni, and throughout coastal British Columbia.",
           "url": "https://www.valleyedgeconsulting.io",
           "logo": "https://www.valleyedgeconsulting.io/logo.png",
           "image": "https://www.valleyedgeconsulting.io/Ivan_Front_Lines.jpg",
@@ -67,15 +67,22 @@ export default function JsonLd() {
           },
           "knowsAbout": [
             "Web Development Vancouver",
+            "Vancouver Island Web Development",
             "Web Design Vancouver",
+            "Victoria Web Development",
             "IT Support Vancouver",
+            "Vancouver Island IT Services",
+            "Web Development Nanaimo",
+            "Courtenay Web Development",
             "Custom Web Development Vancouver",
-            "Business Technology Solutions Vancouver",
+            "Victoria IT Services",
+            "Business Technology Solutions Vancouver Island",
             "Web Design Port Alberni",
             "IT Support Port Alberni",
-            "Web Development Nanaimo",
+            "Comox Valley Web Development",
             "IT Services Parksville",
-            "Technology Consulting Vancouver Island"
+            "Web Developer Vancouver Island",
+            "Technology Consulting Coastal BC"
           ]
         })
       }}

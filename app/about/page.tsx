@@ -6,8 +6,8 @@ import { Users, Target, Rocket, Award, Clock, Shield, ChevronRight, Briefcase, B
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "About - Valley Edge Consulting | Vancouver Web Development & IT Services",
-  description: "Valley Edge Consulting provides expert web development and IT solutions in Vancouver, BC. Also serving Port Alberni, Nanaimo, Parksville, and Vancouver Island with comprehensive business technology services.",
+  title: "About - Valley Edge Consulting | Vancouver & Vancouver Island Web Development",
+  description: "Valley Edge Consulting provides expert web development and IT solutions serving Vancouver and Vancouver Island, BC. Comprehensive services for Victoria, Nanaimo, Courtenay, Port Alberni, Parksville, and coastal BC businesses.",
 }
 
 const values = [

@@ -6,11 +6,20 @@ import Image from "next/image"
 import { Calendar, Clock, ArrowRight, ChevronRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Web Development & IT Services Blog | Vancouver | Valley Edge Consulting",
-  description: "Articles on web development, IT support and business technology for Vancouver businesses. Expert tips and insights for businesses in Vancouver, Port Alberni and throughout BC.",
+  title: "Web Development & IT Services Blog | Vancouver & Vancouver Island | Valley Edge Consulting",
+  description: "Articles on web development, IT support and business technology for Vancouver and Vancouver Island businesses. Expert tips and insights for Victoria, Nanaimo, Courtenay, Port Alberni, and throughout BC.",
 }
 
 const posts = [
+  {
+    id: "vancouver-island-web-development",
+    title: "Vancouver Island Web Development: A Complete Guide for 2025",
+    excerpt: "Expert guide to web development on Vancouver Island. Learn how businesses in Victoria, Nanaimo, Courtenay, Port Alberni, and across the Island can leverage professional web development.",
+    date: "January 22, 2025",
+    readTime: "8 min read",
+    image: "/images/blog/vancouver.png",
+    categories: ["Web Development", "Vancouver Island"]
+  },
   {
     id: "vancouver-web-development",
     title: "Vancouver Web Development: A Complete Guide for Modern Businesses",

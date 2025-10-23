@@ -7,9 +7,9 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "Vancouver Web Development & Business IT Solutions | Valley Edge Consulting",
+  title: "Vancouver & Vancouver Island Web Development | Valley Edge Consulting",
   description:
-    "Top-rated web development, IT support and business technology solutions in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses with custom websites, tech support and digital services.",
+    "Top-rated web development, IT support and business technology solutions serving Vancouver and Vancouver Island, BC. Expert services for Victoria, Nanaimo, Courtenay, Port Alberni, and coastal BC businesses.",
 }
 
 const clientLogos = [1, 2, 3, 4, 5, 6]

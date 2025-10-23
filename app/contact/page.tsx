@@ -5,8 +5,8 @@ import { Mail, Phone, MapPin, Send, Clock, ArrowRight, ChevronRight } from "luci
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Contact Valley Edge Consulting | Vancouver Web Development & IT Services",
-  description: "Contact us for professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses including Nanaimo, Parksville, Tofino, Ucluelet and Courtenay.",
+  title: "Contact Valley Edge Consulting | Vancouver & Vancouver Island Web Development",
+  description: "Contact us for professional web development and IT services serving Vancouver and Vancouver Island, BC. Expert solutions for Victoria, Nanaimo, Courtenay, Port Alberni, Parksville, Tofino, Ucluelet, and coastal BC businesses.",
 }
 
 export default function ContactPage() {

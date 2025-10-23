@@ -15,15 +15,15 @@ const exo2 = Exo_2({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vancouver Web Development & IT Services | Valley Edge Consulting",
+    default: "Vancouver & Vancouver Island Web Development | Valley Edge Consulting",
     template: "%s | Valley Edge Consulting"
   },
-  description: "Professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses with custom websites, tech support, and digital solutions.",
-  keywords: ["Vancouver web development", "Vancouver web design", "Vancouver IT services", "website development Vancouver", "business technology solutions Vancouver", "IT support Vancouver", "Port Alberni web design", "Vancouver Island IT services", "web design Nanaimo", "Parksville IT services", "custom web development Vancouver"],
+  description: "Professional web development and IT services serving Vancouver and Vancouver Island, BC. Expert solutions for businesses in Victoria, Nanaimo, Courtenay, Port Alberni, and throughout coastal BC.",
+  keywords: ["Vancouver web development", "Vancouver Island web development", "Victoria web development", "Nanaimo web design", "Vancouver IT services", "Vancouver Island IT services", "Courtenay web development", "Victoria IT services", "website development Vancouver", "web developer Vancouver Island", "Port Alberni web design", "Comox Valley IT services", "Parksville web development", "custom web development BC"],
   metadataBase: new URL('https://www.valleyedgeconsulting.io'),
   openGraph: {
-    title: 'Vancouver Web Development & IT Services | Valley Edge Consulting',
-    description: 'Professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses with custom websites, tech support, and digital solutions.',
+    title: 'Vancouver & Vancouver Island Web Development | Valley Edge Consulting',
+    description: 'Professional web development and IT services serving Vancouver and Vancouver Island, BC. Expert solutions for Victoria, Nanaimo, Courtenay, Port Alberni, and coastal BC businesses.',
     url: 'https://valleyedgeconsulting.io',
     siteName: 'Valley Edge Consulting',
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Valley Edge Consulting - Web Development & IT Services in Vancouver, BC'
+        alt: 'Valley Edge Consulting - Web Development & IT Services | Vancouver & Vancouver Island'
       }
     ],
     locale: 'en_CA',
@@ -43,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vancouver Web Development & IT Services | Valley Edge Consulting',
-    description: 'Professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses.',
+    title: 'Vancouver & Vancouver Island Web Development | Valley Edge Consulting',
+    description: 'Professional web development and IT services serving Vancouver and Vancouver Island, BC. Expert solutions for coastal BC businesses.',
     images: ['/og-image.jpg'],
   }
 }

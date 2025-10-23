@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold mb-4">Valley Edge Consulting</h3>
-            <p className="text-gray-400 mb-6">Empowering Vancouver and BC businesses with technology that drives real results.</p>
+            <p className="text-gray-400 mb-6">Empowering Vancouver and Vancouver Island businesses with technology that drives real results.</p>
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-emerald-400 mr-3" />
@@ -57,10 +57,15 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="text-gray-400">Vancouver</li>
               <li className="text-gray-400">Lower Mainland</li>
-              <li className="text-gray-400">Port Alberni</li>
-              <li className="text-gray-400">Nanaimo</li>
-              <li className="text-gray-400">Parksville</li>
-              <li className="text-gray-400">Vancouver Island</li>
+              <li className="text-gray-400 font-semibold text-gray-300">Vancouver Island:</li>
+              <li className="text-gray-400 pl-3">Victoria</li>
+              <li className="text-gray-400 pl-3">Nanaimo</li>
+              <li className="text-gray-400 pl-3">Courtenay</li>
+              <li className="text-gray-400 pl-3">Comox Valley</li>
+              <li className="text-gray-400 pl-3">Port Alberni</li>
+              <li className="text-gray-400 pl-3">Parksville</li>
+              <li className="text-gray-400 pl-3">Tofino</li>
+              <li className="text-gray-400 pl-3">Ucluelet</li>
               <li className="text-gray-400">All of BC</li>
             </ul>
           </div>
