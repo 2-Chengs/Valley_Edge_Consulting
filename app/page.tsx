@@ -202,20 +202,25 @@ export default function Home() {
               </Link>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { 
+                {
+                  title: "Rainbow Lanes",
+                  category: "Bowling Alley & Entertainment",
+                  image: "/images/portfolio/rainbowlanes.jpg"
+                },
+                {
                   title: "Alberni Colour Corner",
                   category: "Paint & Home Decor Store",
                   image: "/images/portfolio/albernicolourcorner.png"
                 },
-                { 
-                  title: "Valley Edge Basketball", 
+                {
+                  title: "Valley Edge Basketball",
                   category: "Sports Organization",
                   image: "/images/portfolio/valleyedgebasketball.jpg"
                 },
-                { 
-                  title: "Crab Rave Token", 
+                {
+                  title: "Crab Rave Token",
                   category: "Cryptocurrency Project",
                   image: "/images/portfolio/crabravetoken.jpg"
                 }

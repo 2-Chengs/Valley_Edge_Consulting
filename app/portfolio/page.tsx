@@ -12,6 +12,20 @@ export const metadata: Metadata = {
 
 const portfolioItems = [
   {
+    title: "Rainbow Lanes",
+    description: "Full-stack web application for a historic Port Alberni bowling alley featuring real-time lane reservations, league management, and comprehensive user accounts.",
+    image: "/images/portfolio/rainbowlanes.jpg",
+    category: "Bowling Alley & Entertainment",
+    url: "https://www.rainbowlanes.ca",
+    features: [
+      "Real-time booking system (16 lanes)",
+      "League registration and management",
+      "Multi-provider authentication",
+      "Admin panel with comprehensive controls",
+      "Email notifications and confirmations"
+    ]
+  },
+  {
     title: "Alberni Colour Corner",
     description: "Custom e-commerce website for a local paint and home decor store featuring product catalog and brand showcase.",
     image: "/images/portfolio/albernicolourcorner.png",
@@ -97,7 +111,7 @@ export default function PortfolioPage() {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
               {portfolioItems.map((item, index) => (
                 <a href={item.url} target="_blank" rel="noopener noreferrer" className="group" key={index}>
                   <div className="bg-gray-800 rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 border border-gray-700 group-hover:border-emerald-500/30">
