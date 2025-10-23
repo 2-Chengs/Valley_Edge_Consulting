@@ -15,15 +15,15 @@ const exo2 = Exo_2({
 
 export const metadata: Metadata = {
   title: {
-    default: "Port Alberni Web Design & IT Services | Valley Edge Consulting",
+    default: "Vancouver Web Development & IT Services | Valley Edge Consulting",
     template: "%s | Valley Edge Consulting"
   },
-  description: "Professional web design and IT services in Port Alberni, BC. Serving Vancouver Island businesses with custom websites, tech support, and digital solutions.",
-  keywords: ["Port Alberni web design", "Vancouver Island IT services", "website development Port Alberni", "business technology solutions", "IT support Port Alberni", "web design Nanaimo", "Parksville IT services", "Tofino web design", "Ucluelet web development", "Courtenay IT support"],
+  description: "Professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses with custom websites, tech support, and digital solutions.",
+  keywords: ["Vancouver web development", "Vancouver web design", "Vancouver IT services", "website development Vancouver", "business technology solutions Vancouver", "IT support Vancouver", "Port Alberni web design", "Vancouver Island IT services", "web design Nanaimo", "Parksville IT services", "custom web development Vancouver"],
   metadataBase: new URL('https://www.valleyedgeconsulting.io'),
   openGraph: {
-    title: 'Port Alberni Web Design & IT Services | Valley Edge Consulting',
-    description: 'Professional web design and IT services in Port Alberni, BC. Serving Vancouver Island businesses with custom websites, tech support, and digital solutions.',
+    title: 'Vancouver Web Development & IT Services | Valley Edge Consulting',
+    description: 'Professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses with custom websites, tech support, and digital solutions.',
     url: 'https://valleyedgeconsulting.io',
     siteName: 'Valley Edge Consulting',
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Valley Edge Consulting - Web Design & IT Services in Port Alberni, BC'
+        alt: 'Valley Edge Consulting - Web Development & IT Services in Vancouver, BC'
       }
     ],
     locale: 'en_CA',
@@ -43,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Port Alberni Web Design & IT Services | Valley Edge Consulting',
-    description: 'Professional web design and IT services in Port Alberni, BC. Serving Vancouver Island businesses.',
+    title: 'Vancouver Web Development & IT Services | Valley Edge Consulting',
+    description: 'Professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses.',
     images: ['/og-image.jpg'],
   },
   alternates: {

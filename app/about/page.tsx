@@ -6,8 +6,8 @@ import { Users, Target, Rocket, Award, Clock, Shield, ChevronRight, Briefcase, B
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "About - Valley Edge Consulting | Port Alberni Web Design & IT Services",
-  description: "Valley Edge Consulting provides expert web design and IT solutions in Port Alberni, BC. Serving Nanaimo, Parksville, Tofino, Ucluelet and Courtenay with local expertise and comprehensive business technology services.",
+  title: "About - Valley Edge Consulting | Vancouver Web Development & IT Services",
+  description: "Valley Edge Consulting provides expert web development and IT solutions in Vancouver, BC. Also serving Port Alberni, Nanaimo, Parksville, and Vancouver Island with comprehensive business technology services.",
 }
 
 const values = [
@@ -125,7 +125,7 @@ export default function AboutPage() {
                     </p>
                     
                     <p>
-                      As a native of Port Alberni, BC, I proudly serve local Vancouver Island businesses while also working with clients across BC. Being born and raised in this community gives me a unique understanding of the local business landscape and the specific challenges faced by companies in the Alberni Valley. My services extend to all surrounding areas including Nanaimo, Parksville, Tofino, Ucluelet, Courtenay, and beyond. My deep local roots combined with extensive technical expertise allow me to provide both personalized service and cutting-edge solutions throughout central Vancouver Island.
+                      Now based in Vancouver, BC, I serve businesses throughout the Lower Mainland and Vancouver Island. As a native of Port Alberni, I maintain deep roots on Vancouver Island and continue to support businesses throughout the region. This unique dual perspective—combining Vancouver's dynamic tech scene with Vancouver Island's entrepreneurial spirit—allows me to deliver solutions that work for businesses of all sizes across BC. My services extend throughout Greater Vancouver, Port Alberni, Nanaimo, Parksville, Tofino, Ucluelet, Courtenay, and beyond.
                     </p>
                     
                     {/* Photo moved here - above "Why work with me" section */}
@@ -134,9 +134,9 @@ export default function AboutPage() {
                         <div className="absolute -inset-4 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-xl blur-lg"></div>
                         <div className="relative aspect-[4/3] bg-gray-800 rounded-lg shadow-xl overflow-hidden">
                           <div className="absolute inset-0 bg-gradient-to-br from-emerald-800/40 to-teal-800/40 z-10"></div>
-                          <Image 
+                          <Image
                             src="/Ivan_Front_Lines.jpg"
-                            alt="Ivan from Valley Edge Consulting - Port Alberni Web Design & IT Services"
+                            alt="Ivan from Valley Edge Consulting - Vancouver Web Development & IT Services"
                             fill
                             className="object-cover"
                           />

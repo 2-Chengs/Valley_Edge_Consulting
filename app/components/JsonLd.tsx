@@ -7,7 +7,7 @@ export default function JsonLd() {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "Valley Edge Consulting",
-          "description": "Professional web design, IT support, and business technology solutions in Port Alberni, BC. Serving Vancouver Island businesses with custom websites, tech support and digital services.",
+          "description": "Professional web development, IT support, and business technology solutions in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses with custom websites, tech support and digital services.",
           "url": "https://www.valleyedgeconsulting.io",
           "logo": "https://www.valleyedgeconsulting.io/logo.png",
           "image": "https://www.valleyedgeconsulting.io/Ivan_Front_Lines.jpg",
@@ -20,23 +20,23 @@ export default function JsonLd() {
             "@type": "GeoCircle",
             "geoMidpoint": {
               "@type": "GeoCoordinates",
-              "latitude": 49.2339,
-              "longitude": -124.8055
+              "latitude": 49.2827,
+              "longitude": -123.1207
             },
-            "geoRadius": "100km"
+            "geoRadius": "250km"
           },
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Port Alberni",
-            "addressLocality": "Port Alberni",
+            "streetAddress": "909 Mainland St",
+            "addressLocality": "Vancouver",
             "addressRegion": "BC",
-            "postalCode": "V9Y",
+            "postalCode": "V6B 1T7",
             "addressCountry": "CA"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 49.2339,
-            "longitude": -124.8055
+            "latitude": 49.2827,
+            "longitude": -123.1207
           },
           "sameAs": [
             "https://linkedin.com/company/valley-edge-consulting",
@@ -60,20 +60,22 @@ export default function JsonLd() {
             "@type": "GeoCircle",
             "geoMidpoint": {
               "@type": "GeoCoordinates",
-              "latitude": 49.2339,
-              "longitude": -124.8055
+              "latitude": 49.2827,
+              "longitude": -123.1207
             },
-            "geoRadius": "100km"
+            "geoRadius": "250km"
           },
           "knowsAbout": [
+            "Web Development Vancouver",
+            "Web Design Vancouver",
+            "IT Support Vancouver",
+            "Custom Web Development Vancouver",
+            "Business Technology Solutions Vancouver",
             "Web Design Port Alberni",
             "IT Support Port Alberni",
-            "Business Technology Solutions Vancouver Island",
             "Web Development Nanaimo",
             "IT Services Parksville",
-            "Web Design Tofino",
-            "Website Development Ucluelet",
-            "Technology Consulting Courtenay"
+            "Technology Consulting Vancouver Island"
           ]
         })
       }}

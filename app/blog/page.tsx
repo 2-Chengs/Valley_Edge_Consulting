@@ -6,11 +6,20 @@ import Image from "next/image"
 import { Calendar, Clock, ArrowRight, ChevronRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Web Design & IT Services Blog | Port Alberni | Valley Edge Consulting",
-  description: "Articles on web design, IT support and business technology for Port Alberni businesses. Expert tips from Vancouver Island's leading tech consultant.",
+  title: "Web Development & IT Services Blog | Vancouver | Valley Edge Consulting",
+  description: "Articles on web development, IT support and business technology for Vancouver businesses. Expert tips and insights for businesses in Vancouver, Port Alberni and throughout BC.",
 }
 
 const posts = [
+  {
+    id: "vancouver-web-development",
+    title: "Vancouver Web Development: A Complete Guide for Modern Businesses",
+    excerpt: "Expert guide to web development in Vancouver, BC. Learn about modern web technologies, best practices, and how Vancouver businesses can leverage custom web development for growth.",
+    date: "January 20, 2025",
+    readTime: "8 min read",
+    image: "/images/blog/vancouver-web-development.jpg",
+    categories: ["Web Development", "Vancouver Business"]
+  },
   {
     id: "web-design-port-alberni",
     title: "The Ultimate Guide to Web Design for Port Alberni Businesses",
@@ -57,7 +66,7 @@ export default function BlogPage() {
                 Insights & <span className="bg-gradient-to-r from-emerald-500 to-teal-500 text-transparent bg-clip-text">Resources</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-10">
-                Expert advice and insights on web design, IT support, and business technology for Port Alberni and Vancouver Island businesses.
+                Expert advice and insights on web development, IT support, and business technology for Vancouver, Port Alberni and businesses throughout BC.
               </p>
             </div>
           </div>

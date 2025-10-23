@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold mb-4">Valley Edge Consulting</h3>
-            <p className="text-gray-400 mb-6">Empowering Port Alberni businesses with technology that drives real results.</p>
+            <p className="text-gray-400 mb-6">Empowering Vancouver and BC businesses with technology that drives real results.</p>
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-emerald-400 mr-3" />
@@ -21,7 +21,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-emerald-400 mr-3 mt-1" />
-                <span className="text-gray-300">Port Alberni, BC, Canada</span>
+                <span className="text-gray-300">Vancouver, BC, Canada</span>
               </div>
             </div>
           </div>
@@ -55,13 +55,13 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Areas Served</h3>
             <ul className="space-y-2">
+              <li className="text-gray-400">Vancouver</li>
+              <li className="text-gray-400">Lower Mainland</li>
               <li className="text-gray-400">Port Alberni</li>
               <li className="text-gray-400">Nanaimo</li>
               <li className="text-gray-400">Parksville</li>
-              <li className="text-gray-400">Tofino</li>
-              <li className="text-gray-400">Ucluelet</li>
-              <li className="text-gray-400">Courtenay</li>
               <li className="text-gray-400">Vancouver Island</li>
+              <li className="text-gray-400">All of BC</li>
             </ul>
           </div>
           

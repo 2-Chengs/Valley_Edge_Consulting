@@ -5,8 +5,8 @@ import { Mail, Phone, MapPin, Send, Clock, ArrowRight, ChevronRight } from "luci
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Contact Valley Edge Consulting | Port Alberni Web Design & IT Services",
-  description: "Contact us for professional web design and IT services in Port Alberni, BC. Serving Vancouver Island businesses including Nanaimo, Parksville, Tofino, Ucluelet and Courtenay.",
+  title: "Contact Valley Edge Consulting | Vancouver Web Development & IT Services",
+  description: "Contact us for professional web development and IT services in Vancouver, BC. Also serving Port Alberni and Vancouver Island businesses including Nanaimo, Parksville, Tofino, Ucluelet and Courtenay.",
 }
 
 export default function ContactPage() {
@@ -64,10 +64,10 @@ export default function ContactPage() {
                   },
                   {
                     icon: <MapPin className="h-8 w-8 text-amber-400" />,
-                    title: "Home Office",
-                    info: "3815 Keeha Dr, Port Alberni BC",
+                    title: "Vancouver Office",
+                    info: "909 Mainland St, Vancouver BC V6B 1T7",
                     action: "Get Directions",
-                    link: "https://maps.google.com/?q=3815+Keeha+Dr,+Port+Alberni+BC",
+                    link: "https://maps.google.com/?q=909+Mainland+St,+Vancouver+BC+V6B+1T7",
                     color: "from-amber-500/20 to-orange-500/20",
                     border: "hover:border-amber-500/40"
                   },
@@ -205,7 +205,7 @@ export default function ContactPage() {
                 {[
                   {
                     question: "What areas do you serve?",
-                    answer: "While we're based in Port Alberni, BC, we serve clients throughout Vancouver Island and beyond. Most of our services can be provided remotely, allowing us to work with businesses anywhere."
+                    answer: "Based in Vancouver, BC, we serve clients throughout the Lower Mainland, Vancouver Island, and beyond. With roots in Port Alberni, we maintain strong connections throughout Vancouver Island. Most of our services can be provided remotely, allowing us to work with businesses anywhere in BC and across Canada."
                   },
                   {
                     question: "How quickly can you start on my project?",
