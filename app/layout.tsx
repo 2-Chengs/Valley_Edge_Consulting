@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Vancouver & Vancouver Island Web Development | Valley Edge Consulting',
     description: 'Professional web development and IT services serving Vancouver and Vancouver Island, BC. Expert solutions for Victoria, Nanaimo, Courtenay, Port Alberni, and coastal BC businesses.',
-    url: 'https://valleyedgeconsulting.io',
+    url: 'https://www.valleyedgeconsulting.io',
     siteName: 'Valley Edge Consulting',
     images: [
       {
