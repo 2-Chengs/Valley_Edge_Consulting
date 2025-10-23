@@ -17,7 +17,7 @@ const posts = [
     excerpt: "Expert guide to web development in Vancouver, BC. Learn about modern web technologies, best practices, and how Vancouver businesses can leverage custom web development for growth.",
     date: "January 20, 2025",
     readTime: "8 min read",
-    image: "/images/blog/vancouver-web-development.jpg",
+    image: "/images/blog/vancouver.png",
     categories: ["Web Development", "Vancouver Business"]
   },
   {
@@ -80,10 +80,13 @@ export default function BlogPage() {
                 <Link key={post.id} href={`/blog/${post.id}`} className="group block">
                   <div className="bg-gray-900 rounded-xl overflow-hidden shadow-xl transition-all group-hover:-translate-y-1 duration-300 h-full flex flex-col">
                     <div className="relative aspect-[16/9]">
-                      {/* This is a placeholder. You'll need to create these images */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-emerald-600/70 to-teal-600/70 flex items-center justify-center text-white text-opacity-30 text-xl font-bold">
-                        Featured Image
-                      </div>
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        fill
+                        className="object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent"></div>
                     </div>
                     <div className="p-6 flex-grow">
                       <div className="flex gap-3 mb-3">

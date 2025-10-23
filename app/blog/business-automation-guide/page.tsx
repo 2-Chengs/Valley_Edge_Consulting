@@ -71,11 +71,15 @@ export default function BusinessAutomationGuideBlog() {
         <section className="py-12 bg-gray-900">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
-              {/* This would be a placeholder for a real image */}
-              <div className="w-full aspect-[16/9] bg-gradient-to-br from-violet-600/70 to-purple-600/70 rounded-xl mb-12 flex items-center justify-center">
-                <span className="text-white text-opacity-30 text-xl font-bold">Featured Image</span>
+              <div className="w-full aspect-[16/9] rounded-xl mb-12 relative overflow-hidden">
+                <Image
+                  src="/images/blog/business-automation.jpg"
+                  alt="Business Automation for Port Alberni Retailers - Modern POS and automation technology"
+                  fill
+                  className="object-cover"
+                />
               </div>
-              
+
               <div className="prose prose-lg prose-invert max-w-none">
                 <p className="lead">
                   For retailers in Port Alberni and across Vancouver Island, automation technology isn't just for big businesses anymore. Implementing the right automation tools can help local shops compete with larger chains while providing the personalized service that makes small businesses special.

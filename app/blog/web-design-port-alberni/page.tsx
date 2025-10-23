@@ -71,11 +71,15 @@ export default function WebDesignPortAlberniBlog() {
         <section className="py-12 bg-gray-900">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
-              {/* This would be a placeholder for a real image */}
-              <div className="w-full aspect-[16/9] bg-gradient-to-br from-emerald-600/70 to-teal-600/70 rounded-xl mb-12 flex items-center justify-center">
-                <span className="text-white text-opacity-30 text-xl font-bold">Featured Image</span>
+              <div className="w-full aspect-[16/9] rounded-xl mb-12 relative overflow-hidden">
+                <Image
+                  src="/images/blog/web-design-port-alberni.jpg"
+                  alt="Web Design for Port Alberni Businesses - Local business storefront"
+                  fill
+                  className="object-cover"
+                />
               </div>
-              
+
               <div className="prose prose-lg prose-invert max-w-none">
                 <p className="lead">
                   In today's digital age, having a strong online presence is no longer optional for businesses in Port Alberni and across Vancouver Island. A well-designed website serves as your 24/7 storefront, reaching potential customers even when your physical store is closed.
