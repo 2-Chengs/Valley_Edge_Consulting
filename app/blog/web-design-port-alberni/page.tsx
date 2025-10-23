@@ -81,92 +81,92 @@ export default function WebDesignPortAlberniBlog() {
               </div>
 
               <div className="prose prose-lg prose-invert max-w-none">
-                <p className="lead">
+                <p className="lead text-xl text-gray-300 mb-8">
                   In today's digital age, having a strong online presence is no longer optional for businesses in Port Alberni and across Vancouver Island. A well-designed website serves as your 24/7 storefront, reaching potential customers even when your physical store is closed.
                 </p>
-                
-                <h2>Why Port Alberni Businesses Need Effective Web Design</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Why Port Alberni Businesses Need Effective Web Design</h2>
+
+                <p className="text-gray-300 mb-6">
                   Port Alberni, nestled in the heart of Vancouver Island, has a unique business landscape. With a population of approximately 18,000 and its strategic location between east and west coast communities, local businesses have both opportunities and challenges in reaching their target audience.
                 </p>
-                
-                <p>
+
+                <p className="text-gray-300 mb-6">
                   According to recent statistics, over 70% of consumers research a business online before visiting in person or making a purchase. For Port Alberni businesses, this means that your website often creates the crucial first impression that determines whether a potential customer will choose your services.
                 </p>
-                
-                <h2>Key Elements of Effective Web Design for Vancouver Island Businesses</h2>
-                
-                <h3>1. Mobile-First Design</h3>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Key Elements of Effective Web Design for Vancouver Island Businesses</h2>
+
+                <h3 className="text-2xl font-bold text-emerald-400 mt-8 mb-4">1. Mobile-First Design</h3>
+
+                <p className="text-gray-300 mb-6">
                   With over 60% of web traffic now coming from mobile devices, ensuring your website functions perfectly on smartphones and tablets is essential. This is particularly important for Port Alberni businesses targeting tourists and visitors who are often searching on mobile while traveling through Vancouver Island.
                 </p>
-                
-                <h3>2. Local SEO Integration</h3>
-                
-                <p>
+
+                <h3 className="text-2xl font-bold text-emerald-400 mt-8 mb-4">2. Local SEO Integration</h3>
+
+                <p className="text-gray-300 mb-6">
                   Your website should be optimized for local search terms like "Port Alberni [your service]" or "Alberni Valley [your business type]." This helps ensure that when potential customers in Port Alberni or surrounding areas like Nanaimo, Parksville, Tofino, Ucluelet, and Courtenay search for services you offer, your business appears prominently in search results.
                 </p>
-                
-                <h3>3. Fast Loading Speed</h3>
-                
-                <p>
+
+                <h3 className="text-2xl font-bold text-emerald-400 mt-8 mb-4">3. Fast Loading Speed</h3>
+
+                <p className="text-gray-300 mb-6">
                   Studies show that 40% of visitors abandon websites that take more than 3 seconds to load. In areas of Vancouver Island where internet connections might not always be the fastest, optimizing your website's loading speed becomes even more crucial for retaining potential customers.
                 </p>
-                
-                <h3>4. Clear Call-to-Actions</h3>
-                
-                <p>
+
+                <h3 className="text-2xl font-bold text-emerald-400 mt-8 mb-4">4. Clear Call-to-Actions</h3>
+
+                <p className="text-gray-300 mb-6">
                   Your website should guide visitors toward taking action, whether that's making a purchase, filling out a contact form, calling your business, or visiting your Port Alberni location. Well-designed call-to-action buttons that stand out and clearly communicate the next step are essential.
                 </p>
-                
-                <h2>Showcasing Port Alberni's Unique Character in Your Web Design</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Showcasing Port Alberni's Unique Character in Your Web Design</h2>
+
+                <p className="text-gray-300 mb-6">
                   Port Alberni has a rich history as a resource-based community that's evolving into a diverse economic center. Your website design should reflect both the heritage and forward-thinking nature of the Alberni Valley.
                 </p>
-                
-                <p>
+
+                <p className="text-gray-300 mb-6">
                   Incorporating visual elements that showcase Port Alberni's natural beauty—from the Alberni Inlet to the surrounding mountains—can create an emotional connection with locals while also appealing to visitors interested in experiencing Vancouver Island's unique landscape.
                 </p>
-                
-                <h2>The Value of Professional Web Design for Port Alberni Businesses</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">The Value of Professional Web Design for Port Alberni Businesses</h2>
+
+                <p className="text-gray-300 mb-6">
                   While DIY website builders may seem cost-effective initially, they often lack the customization, performance optimization, and local SEO capabilities that a professionally designed website can provide. A web developer who understands Port Alberni's business environment can create a website that truly represents your brand and effectively reaches your target audience.
                 </p>
-                
-                <p>
+
+                <p className="text-gray-300 mb-6">
                   Consider the return on investment: A well-designed website that generates even a few additional customers each month can quickly pay for itself, especially for businesses offering higher-value services or products.
                 </p>
-                
-                <h2>Port Alberni Web Design Success Stories</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Port Alberni Web Design Success Stories</h2>
+
+                <p className="text-gray-300 mb-6">
                   Several Port Alberni businesses have transformed their online presence through effective web design. For example, local retailers have expanded their reach beyond the Alberni Valley to serve customers across Vancouver Island and beyond. Service-based businesses have streamlined their booking processes, reducing administrative work while improving customer experience.
                 </p>
-                
-                <h2>Getting Started with Your Port Alberni Business Website</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Getting Started with Your Port Alberni Business Website</h2>
+
+                <p className="text-gray-300 mb-6">
                   Whether you're creating a new website or refreshing an existing one, the process begins with understanding your business goals, target audience, and unique value proposition. From there, a strategic approach to design, development, and ongoing optimization ensures your website continues to serve as an effective tool for growing your Port Alberni business.
                 </p>
-                
-                <p>
+
+                <p className="text-gray-300 mb-8">
                   As a web design agency based in Port Alberni and serving businesses across Vancouver Island, Valley Edge Consulting understands the local market dynamics and can help create a website that resonates with your target audience while achieving your business objectives.
                 </p>
-                
-                <div className="callout bg-emerald-900/20 border-l-4 border-emerald-500 p-6 my-8 rounded-r-lg">
-                  <h3 className="text-emerald-400 font-bold">Ready to elevate your Port Alberni business online?</h3>
-                  <p className="mb-4">
+
+                <div className="bg-emerald-900/20 border border-emerald-500/30 rounded-xl p-8 mt-12">
+                  <h3 className="text-2xl font-bold text-white mb-4">Ready to elevate your Port Alberni business online?</h3>
+                  <p className="text-gray-300 mb-6">
                     Contact Valley Edge Consulting today for a free consultation about your web design project. As Port Alberni natives, we understand the local business landscape and can help create a website that truly represents your brand while effectively reaching your target audience.
                   </p>
-                  <Link 
-                    href="/contact" 
-                    className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+                  <Link
+                    href="/contact"
+                    className="inline-block px-8 py-3 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/20"
                   >
-                    Contact Us For a Free Consultation
+                    Get Your Free Consultation
                   </Link>
                 </div>
               </div>

@@ -81,119 +81,119 @@ export default function ITSupportVancouverIslandBlog() {
               </div>
 
               <div className="prose prose-lg prose-invert max-w-none">
-                <p className="lead">
+                <p className="lead text-xl text-gray-300 mb-8">
                   For small businesses across Vancouver Island, from Port Alberni to Nanaimo, reliable IT support isn't just a convenience—it's essential for daily operations, security, and growth in today's digital-first economy.
                 </p>
-                
-                <h2>Why Vancouver Island Small Businesses Need Professional IT Support</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Why Vancouver Island Small Businesses Need Professional IT Support</h2>
+
+                <p className="text-gray-300 mb-6">
                   Small businesses on Vancouver Island face unique challenges when it comes to technology. The island's geographic spread—from urban centers like Victoria and Nanaimo to smaller communities like Port Alberni, Tofino, and Courtenay—can make accessing technical expertise difficult. Additionally, many businesses operate in industries that require specialized technology solutions, from tourism and hospitality to natural resources and manufacturing.
                 </p>
-                
-                <p>
+
+                <p className="text-gray-300 mb-6">
                   According to recent studies, small businesses that invest in proper IT support experience 40% fewer downtime incidents and save an average of $1,500 per employee annually in productivity costs. For Vancouver Island businesses, this can mean the difference between thriving and merely surviving.
                 </p>
-                
-                <h2>Core IT Support Services for Vancouver Island Businesses</h2>
-                
-                <h3>1. Managed IT Services</h3>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Core IT Support Services for Vancouver Island Businesses</h2>
+
+                <h3 className="text-2xl font-bold text-emerald-400 mt-8 mb-4">1. Managed IT Services</h3>
+
+                <p className="text-gray-300 mb-6">
                   Rather than waiting for technology to break down, managed IT services provide proactive monitoring and maintenance of your systems. For businesses in Port Alberni and surrounding areas, this means fewer disruptions and a more predictable IT budget. A good managed service provider can remotely monitor your systems, apply updates during off-hours, and address potential issues before they impact your business.
                 </p>
-                
-                <h3>2. Cybersecurity Solutions</h3>
-                
-                <p>
+
+                <h3 className="text-2xl font-bold text-emerald-400 mt-8 mb-4">2. Cybersecurity Solutions</h3>
+
+                <p className="text-gray-300 mb-6">
                   Vancouver Island businesses are not immune to cyber threats. In fact, small businesses are often targeted precisely because they typically have fewer security resources than larger corporations. Essential cybersecurity services include:
                 </p>
-                
-                <ul>
+
+                <ul className="list-disc list-inside text-gray-300 mb-6 space-y-2">
                   <li>Endpoint protection for all devices</li>
                   <li>Firewall management and monitoring</li>
                   <li>Email security and anti-phishing measures</li>
                   <li>Employee security training</li>
                   <li>Regular security assessments</li>
                 </ul>
-                
-                <h3>3. Cloud Services and Data Backup</h3>
-                
-                <p>
+
+                <h3 className="text-2xl font-bold text-emerald-400 mt-8 mb-4">3. Cloud Services and Data Backup</h3>
+
+                <p className="text-gray-300 mb-6">
                   For businesses across Vancouver Island, cloud services provide flexibility and disaster recovery capabilities that are especially important in our region, where winter storms can occasionally disrupt power and internet connectivity. A comprehensive backup solution ensures your business data is secure and accessible, even in the event of a natural disaster, hardware failure, or cyberattack.
                 </p>
-                
-                <h3>4. Business Continuity Planning</h3>
-                
-                <p>
+
+                <h3 className="text-2xl font-bold text-emerald-400 mt-8 mb-4">4. Business Continuity Planning</h3>
+
+                <p className="text-gray-300 mb-6">
                   What happens if your systems go down for an extended period? For retail businesses in Port Alberni or hospitality operations in Tofino, even a few hours of downtime can result in significant revenue loss. IT support should include developing a business continuity plan that defines how your business will continue operating during technology disruptions.
                 </p>
-                
-                <h2>IT Infrastructure Setup and Maintenance</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">IT Infrastructure Setup and Maintenance</h2>
+
+                <p className="text-gray-300 mb-6">
                   Whether you're opening a new location, upgrading existing systems, or transitioning to a hybrid work model, professional IT support ensures your technology infrastructure meets your business needs today and can scale for tomorrow.
                 </p>
-                
-                <p>
+
+                <p className="text-gray-300 mb-6">
                   This includes services like:
                 </p>
-                
-                <ul>
+
+                <ul className="list-disc list-inside text-gray-300 mb-6 space-y-2">
                   <li>Network design and implementation</li>
                   <li>Hardware procurement and setup</li>
                   <li>WiFi optimization for staff and customers</li>
                   <li>VoIP phone system implementation</li>
                   <li>Point-of-sale system integration</li>
                 </ul>
-                
-                <h2>Remote Work Support</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Remote Work Support</h2>
+
+                <p className="text-gray-300 mb-6">
                   Since the pandemic, many Vancouver Island businesses have adopted flexible work arrangements. Professional IT support helps ensure secure remote access to business systems, effective collaboration tools, and appropriate security measures for staff working from home or on the go.
                 </p>
-                
-                <h2>Choosing the Right IT Support Provider on Vancouver Island</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">Choosing the Right IT Support Provider on Vancouver Island</h2>
+
+                <p className="text-gray-300 mb-6">
                   When selecting an IT support provider for your Vancouver Island business, consider these factors:
                 </p>
-                
-                <ul>
+
+                <ul className="list-disc list-inside text-gray-300 mb-6 space-y-2">
                   <li><strong>Local presence:</strong> A provider with local knowledge understands the unique challenges Vancouver Island businesses face, from connectivity issues to seasonal business fluctuations.</li>
                   <li><strong>Response time:</strong> How quickly can they respond to critical issues? For businesses in more remote locations, this is especially important.</li>
                   <li><strong>Proactive approach:</strong> Do they wait for things to break, or do they actively monitor and maintain your systems?</li>
                   <li><strong>Communication style:</strong> Do they explain technology in plain language or confuse you with technical jargon?</li>
                   <li><strong>Scalability:</strong> Can their services grow with your business over time?</li>
                 </ul>
-                
-                <h2>The Cost-Benefit Analysis of Professional IT Support</h2>
-                
-                <p>
+
+                <h2 className="text-3xl font-bold text-white mt-12 mb-6">The Cost-Benefit Analysis of Professional IT Support</h2>
+
+                <p className="text-gray-300 mb-6">
                   Many small businesses on Vancouver Island attempt to handle IT internally or rely on the "most tech-savvy" employee to manage technology needs. While this may seem cost-effective initially, it often leads to higher costs from:
                 </p>
-                
-                <ul>
+
+                <ul className="list-disc list-inside text-gray-300 mb-6 space-y-2">
                   <li>Unexpected downtime and emergency repairs</li>
                   <li>Security breaches and data loss</li>
                   <li>Inefficient technology use</li>
                   <li>Staff productivity losses</li>
                 </ul>
-                
-                <p>
+
+                <p className="text-gray-300 mb-8">
                   Professional IT support typically costs between 1-5% of annual revenue for most small businesses—an investment that pays dividends through improved efficiency, reduced risk, and the ability to focus on your core business rather than technology problems.
                 </p>
-                
-                <div className="callout bg-blue-900/20 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
-                  <h3 className="text-blue-400 font-bold">Need reliable IT support for your Vancouver Island business?</h3>
-                  <p className="mb-4">
+
+                <div className="bg-emerald-900/20 border border-emerald-500/30 rounded-xl p-8 mt-12">
+                  <h3 className="text-2xl font-bold text-white mb-4">Need reliable IT support for your Vancouver Island business?</h3>
+                  <p className="text-gray-300 mb-6">
                     As a Port Alberni native serving businesses throughout Vancouver Island, Valley Edge Consulting provides comprehensive IT support services tailored to local business needs. Our stress-free approach features clear communication without technical jargon, ensuring you understand exactly what's happening with your technology.
                   </p>
-                  <Link 
-                    href="/contact" 
-                    className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+                  <Link
+                    href="/contact"
+                    className="inline-block px-8 py-3 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/20"
                   >
-                    Contact Us For a Free IT Assessment
+                    Get Your Free IT Assessment
                   </Link>
                 </div>
               </div>
