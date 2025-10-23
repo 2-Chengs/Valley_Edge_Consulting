@@ -1,6 +1,7 @@
 # robots.txt for www.valleyedgeconsulting.io
 User-agent: *
 Allow: /
+Disallow: /api/
 
 # Sitemap
 Sitemap: https://www.valleyedgeconsulting.io/sitemap.xml

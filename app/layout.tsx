@@ -58,27 +58,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="facebook-domain-verification" content="2czgf26x1grjm2zjjtqsbw5czyovti" />
-        {/* Web Vitals Monitoring */}
-        <script
-          defer
-          dangerouslySetInnerHTML={{
-            __html: `
-              addEventListener('load', () => {
-                if (navigator.sendBeacon) {
-                  const observer = new PerformanceObserver((list) => {
-                    list.getEntries().forEach((entry) => {
-                      const beacon = new FormData();
-                      beacon.append('metric', entry.name);
-                      beacon.append('value', entry.value.toString());
-                      navigator.sendBeacon('/api/metrics', beacon);
-                    });
-                  });
-                  observer.observe({ entryTypes: ['web-vitals'] });
-                }
-              });
-            `,
-          }}
-        />
       </head>
       <body className={`${inter.className} bg-black`}>
         <ThemeProvider
